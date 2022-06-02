@@ -19,5 +19,10 @@ namespace Scaffholding_Techniques.Controllers
         {
             return View(persons);
         }
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            return View();
+        }
     }
 }
